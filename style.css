@@ -1,0 +1,141 @@
+@media (max-width: 991px) {
+    .logo-img { 
+        width: 50px; 
+        height: 50px; 
+    }
+
+    .brand-title { 
+        white-space: normal;
+    }
+
+    .brand-subtitle { 
+        font-size: 0.8rem; 
+    }
+    
+    .nav-custom { 
+        padding: 12px 10px; 
+    }
+    
+    .mobile-nav-row {
+        flex-direction: row !important;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .mobile-nav-row .nav-link {
+        padding: 0.25rem 0;
+    }
+
+    .h-350 { 
+        height: auto; 
+        min-height: 250px; 
+        padding: 2rem 0; 
+    }
+    
+    .min-vh-70, .min-vh-77, .min-vh-85 { 
+        min-height: auto; 
+    }
+}
+
+.navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+
+.card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15); 
+}
+
+.bg-brand { 
+    background-color: #1f4f7b; 
+}
+
+.text-brand { 
+    color: #1f4f7b; 
+}
+
+.btn-brand { 
+    background-color: #1f4f7b; 
+    border-color: #1f4f7b; 
+    color: white; 
+}
+
+.btn-brand:hover { 
+    background-color: #163a5c; 
+    border-color: #163a5c; 
+    color: white; 
+}
+
+.nav-custom { 
+    padding: 10px 20px; 
+}
+
+.brand-font { 
+    font-family: 'Arial', sans-serif; 
+}
+
+.brand-title { 
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    line-height: 1.2; 
+}
+
+.brand-subtitle { 
+    font-size: 0.9rem; 
+    color: rgba(255,255,255,0.75); 
+}
+
+.logo-img { 
+    width: 90px; 
+    height: 90px; 
+    object-fit: contain;
+}
+
+.min-vh-70 { 
+    min-height: 
+    70vh; 
+}
+
+.min-vh-77 { 
+    min-height: 77vh; 
+}
+
+.min-vh-85 { 
+    min-height: 85vh; 
+}
+
+.h-350 { 
+    height: 350px; 
+}
+
+.max-w-16rem { 
+    max-width: 16rem; 
+}
+
+.max-w-500 {
+     max-width: 500px; 
+    }
+
+.max-w-700 { 
+    max-width: 700px; 
+}
+
+.scroll-mt-130 { 
+    scroll-margin-top: 130px; 
+}
+
+.product-img { 
+    max-height: 400px; 
+    object-fit: contain; 
+}
